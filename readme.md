@@ -17,7 +17,7 @@ The paths of datasets, checkpoints, and pkl can be set via:
 - Datasets
   - CIFAR series: `common_dir` in `datasets.py`.
   - WILDS: `WILDS_DATA` in `pp.py`.
-  - Others: Filepaths are stored in txt files. Path of txt files is `args.txtdir` in `pp.py`. Example of txt files are available here. You can download the required dataset and change the prefix of paths in these txt files for your use.
+  - Others: Filepaths are stored in txt files. Path of txt files is `args.txtdir` in `pp.py`. Example of txt files are available [here](https://pan.baidu.com/s/1pJZpFX1QSw9JbTPghcAkhQ?pwd=3m9j). You can download the required dataset and change the prefix of paths in these txt files for your use.
 
 - Checkpoint
   - ImageNet series: `os.environ['TORCH_HOME']` in `get_results.py` and `pp.py`.
